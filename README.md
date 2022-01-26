@@ -7,6 +7,7 @@ The stacks i am using is
 Frontend -------------------
 • CSS3
 • ReactJS 
+• ESLint
 
 Backend --------------------
 • NodeJS/ExpressJS
