@@ -16,7 +16,7 @@ import "react-toastify/dist/ReactToastify.css";
 import "./index.css";
 import CreateCastle from "./components/CreateCastle";
 import About from "./components/About";
-import Contact from "./components/Contact";
+import Contact from "./components/contact";
 
 function App() {
   return (
