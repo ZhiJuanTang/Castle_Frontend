@@ -17,7 +17,7 @@ const Navbar = () => {
         {isAuthenticated ? (
           <>
             <Link to="/protected/create-post"> CreateCastle </Link>
-            <a href="#" onClick={signout}>LogOut</a>
+            <a onClick={signout}>LogOut</a>
             <Link to="/Contact"> Contact </Link>
             <Link to="/About"> About </Link>
           </>
