@@ -1,12 +1,12 @@
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import AuthState from "./context/AuthContext";
 import Footer from "./components/Footer";
 import CastleScreen from "./screens/CastleScreen";
 import HomeScreen from "./screens/HomeScreen";
 import LogIn from "./components/LogIn";
-import Confirm from './components/Confirm';
-import Cancel from './components/Cancel';
+import Confirm from "./components/Confirm";
+import Cancel from "./components/Cancel";
 import Register from "./components/Register";
 import Layout from "./components/Layout";
 import ProtectedRoute from "./components/ProtectedRoute";
