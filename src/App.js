@@ -5,8 +5,8 @@ import Footer from "./components/Footer";
 import CastleScreen from "./screens/CastleScreen";
 import HomeScreen from "./screens/HomeScreen";
 import LogIn from "./components/LogIn";
-import Confirm from './components/Confirm';
-import Cancel from './components/Cancel';
+import Confirm from "./components/Confirm";
+import Cancel from "./components/Cancel";
 import Register from "./components/Register";
 import Layout from "./components/Layout";
 import ProtectedRoute from "./components/ProtectedRoute";
@@ -28,7 +28,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Layout />}>
                 <Route index element={<HomeScreen />} />
-                <Route path="About" element={<About />} />
+                <Route path="Aboutt" element={<About />} />
                 <Route path="Contact" element={<Contact />} />
                 <Route path="login" element={<LogIn />} />
                 <Route path="confirm-order" element={<Confirm />} />
